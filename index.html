@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+    <style>
+        .parent {
+            position: relative;
+            width:1000px;
+            height:500px;
+            margin:0 auto;
+            background:url(./image.png);   
+        }
+        #hoge{
+        width:1000px;
+        height:500px;
+        position: absolute;
+        top:0;
+        left: 0;
+        opacity: .4;
+        /* background:url(./image.png); */
+        }
+        #hogehoge {
+        width:1000px;
+        height:500px;
+        position: absolute;
+        top:0;
+        left: 0;
+        margin:0 auto;
+        opacity: .4;
+        /* background:url(./image.png);      */
+        }
+    </style>
+    <div class="parent">
+        <div id="hogehoge"></div>
+        <div id="hoge"></div>
+    </div>
+
+
+<script src="particles.js"></script>
+<script src="pt.js"></script>
+</body>
+</html>
